@@ -1,0 +1,103 @@
+.App {
+    font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+
+.conteudo {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+
+.background {
+    height: 100vh;
+    margin-left: -24%;
+    opacity: 20%;
+    position: absolute;
+    left: 0;
+}
+
+.info {
+    width: 60%;
+    margin-left: 25%;
+    margin-top: 40px;
+    color: white;
+
+}
+
+input {
+    border: 1px solid #999999;
+    border-radius: 22px;
+    background: transparent;
+    min-width: 250px;
+    width: 80%;
+    margin-right: 12px;
+    font-size: 18px;
+    padding: 5px;
+    color: #d8d6d8;
+}
+
+button {
+    border: 1px solid #999999;
+    border-radius: 22px;
+    background: #2D333B;
+    color: #ffffffc0;
+    font-size: 18px;
+    padding: 5px 20px;
+}
+
+.profile {
+    display: flex;
+    margin: 25px;
+}
+
+#profileimg {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    border: 1px solid #999999;
+}
+
+.profiletext {
+    flex-direction: column;
+    width: 100%;
+}
+
+.profiletext h3 {
+    color: white;
+    font-size: 24px;
+    margin: 0;
+}
+
+.profiletext span {
+    display: block;
+    color: #999999;
+    font-size: 16px;
+    margin: 0;
+}
+
+.profiletext p {
+    display: block;
+    color: #d3d1d1;
+    font-size: 16px;
+    margin: 0;
+    padding-top: 1rem;
+}
+
+hr {
+    width: 100%;
+    height: 2px;
+    border-radius: 10%;
+    background-color: #2D333B;
+
+}
+
+.itemList h4 {
+    font-size: 24px;
+    color: rgba(255, 255, 255, 0.753);
+    margin: 12px 0;
+    text-align: center;
+    background-color: #272e36;
+    padding: 5px;
+    border-radius: 6px;
+}
